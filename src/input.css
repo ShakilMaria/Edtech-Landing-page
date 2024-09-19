@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer components {
+ 
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .btn{
+        padding: 10px 30px;
+    
+    }
+    .btn-color{
+        background-color:  #54B8FF;
+        color: white;
+    }
+}
